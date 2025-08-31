@@ -2,7 +2,8 @@ import React, { useState, createContext, useContext } from 'react';
 import {
   createTheme,
   ThemeProvider,
-  CssBaseline
+  CssBaseline,
+  Box
 } from '@mui/material';
 import ProfilePage from './pages/ProfilePage';
 import './App.css';
@@ -46,8 +47,8 @@ const createAppTheme = (mode) => createTheme({
       },
       background: {
         default: '#000000',
-        paper: '#000000',
-        image: 'url(/src/assets/images/프로필배경dark.jpeg)',
+        paper: 'rgba(27, 27, 27, 0.97)',
+        image: 'url(/src/assets/images/profile_bg1-trans.png)',
         pattern: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.03) 10px, rgba(255,255,255,0.03) 20px)'
       },
       text: {

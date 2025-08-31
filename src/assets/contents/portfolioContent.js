@@ -1,0 +1,88 @@
+// ========================= 🚗 Portfolio 섹션 컨텐츠 =========================
+
+export const itemData = [
+  {
+    img: '/src/assets/images/cars/car_image_1.jpg',
+    title: 'BMW X1',
+    area: '서울',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_2.jpg',
+    title: '현대 아반떼',
+    area: '부산',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_3.jpg',
+    title: '기아 K5',
+    area: '대구',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_4.png',
+    title: '제네시스 G80',
+    area: '인천',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_5.jpg',
+    title: '아우디 A4',
+    area: '광주',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_6.png',
+    title: '벤츠 C클래스',
+    area: '대전',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_7.jpg',
+    title: 'BMW 3시리즈',
+    area: '울산',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_8.jpg',
+    title: '현대 투싼',
+    area: '세종',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_9.jpg',
+    title: '기아 스포티지',
+    area: '제주',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_10.png',
+    title: '제네시스 GV70',
+    area: '강남',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_11.jpg',
+    title: '테슬라 모델 3',
+    area: '판교',
+    rows: 1,
+    cols: 1,
+  },
+  {
+    img: '/src/assets/images/cars/car_image_12.png',
+    title: '폭스바겐 골프',
+    area: '분당',
+    rows: 1,
+    cols: 1,
+  },
+];

@@ -13,7 +13,7 @@ const ContactButton = ({ icon: Icon, text, onClick, variant = "contained", color
     bgcolor: variant === "contained" ? 'primary.main' : 'transparent',
     color: variant === "contained" ? 'white' : 'text.primary',
     py: variant === "contained" ? 1 : 2,
-    mb: 3,
+    mb: 1,
     borderRadius: 3,
     fontSize: '1.1rem',
     fontWeight: 'bold',

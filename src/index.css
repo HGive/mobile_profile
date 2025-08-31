@@ -37,18 +37,3 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-
-/* 모바일 최적화 */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-/* 터치 디바이스 최적화 */
-@media (hover: none) and (pointer: coarse) {
-  button, a {
-    min-height: 44px;
-    min-width: 44px;
-  }
-}

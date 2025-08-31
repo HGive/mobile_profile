@@ -10,7 +10,7 @@ const CompanyLogo = () => {
     : '/src/assets/images/a1-logo-trans.png';
   
   return (
-    <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', mt: 2, mb: 1, ml: 1}}>
       <Box
         component="img"
         src={logoSrc}
