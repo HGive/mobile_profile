@@ -19,9 +19,10 @@ export const StackItem = styled(Paper)(({ theme }) => ({
   cursor: 'pointer',
   transition: 'all 0.2s ease-in-out',
   borderRadius: 15,
+  boxShadow: '0 1px 4px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.1)',
   '&:hover': {
     backgroundColor: theme.palette.action.hover,
     transform: 'translateY(-1px)',
-    boxShadow: theme.shadows[4],
+    boxShadow: '0 1px 4px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.15)',
   },
 }));

@@ -105,12 +105,6 @@ const ProfileSection = () => {
             </Typography>
           </Box>
 
-          <ContactButton
-            icon={Phone}
-            text={PERSONAL_INFO.phone}
-            onClick={() => handleContactClick('phone', PERSONAL_INFO.phone)}
-          />
-
           {/* <SocialLinks 
           socialLinks={SOCIAL_LINKS}
           onContactClick={handleContactClick}

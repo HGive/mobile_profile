@@ -43,12 +43,12 @@ const createAppTheme = (mode) => createTheme({
     } : {
       // 다크 모드
       primary: {
-        main: '#ff6b6b',
+        main: '#ffffff',
       },
       background: {
         default: '#000000',
         paper: 'rgba(27, 27, 27, 0.97)',
-        image: 'url(/src/assets/images/profile_bg1-trans.png)',
+        image: 'url(/src/assets/images/프로필배경dark.jpeg)',
         pattern: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.03) 10px, rgba(255,255,255,0.03) 20px)'
       },
       text: {

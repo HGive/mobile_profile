@@ -51,6 +51,7 @@ const ProfilePage = () => {
     <Box maxWidth="400px" sx={{
       minHeight: '100vh',
       mx: 'auto',
+      mb: 8,
       position: 'relative',
       bgcolor: 'background.default'
     }}>

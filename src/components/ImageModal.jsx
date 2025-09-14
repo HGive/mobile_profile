@@ -7,8 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 const ImageModal = ({ open, onClose, images, currentIndex, onIndexChange }) => {
   if (!images || images.length === 0) return null;
 
-  console.log('ImageModal props:', { open, images, currentIndex, imagesLength: images.length });
-
   const settings = {
     dots: false,
     infinite: true,

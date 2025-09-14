@@ -35,7 +35,7 @@ const QnASection = () => {
       <SectionContainer>
         <Box sx={{ 
           display: 'flex', 
-          justifyContent: 'space-between', 
+          justifyContent: 'center', 
           alignItems: 'center', 
           mb: 2 
         }}>
@@ -47,6 +47,7 @@ const QnASection = () => {
             startIcon={<Search />}
             onClick={handleSearchClick}
             sx={{
+              display: 'none',
               borderColor: 'primary.main',
               color: 'primary.main',
               '&:hover': {
@@ -62,15 +63,12 @@ const QnASection = () => {
         
         <Stack spacing={2}>
           <StackItem onClick={() => handleOpenModal("자주 묻는 질문", frequentlyAskedQuestions)}>
-            <QuestionAnswer sx={{ mr: 1, fontSize: '1.2rem' }} />
             ❓ 자주 묻는 질문
           </StackItem>
           <StackItem onClick={() => handleOpenModal("구매 가이드", purchaseGuide)}>
-            <Book sx={{ mr: 1, fontSize: '1.2rem' }} />
             📖 구매 가이드
           </StackItem>
           <StackItem onClick={() => handleOpenModal("서비스 가이드", serviceGuide)}>
-            <Build sx={{ mr: 1, fontSize: '1.2rem' }} />
             🛠️ 서비스 가이드
           </StackItem>
         </Stack>
